@@ -16,7 +16,7 @@ while( $row = $modx->db->getRow( $result ) ) {
      case 23:
         $data[$row['id']]['picture'] = $row['value']; 
         break;
-	case 18:
+     case 18:
         $data[$row['id']]['description'] = $row['value']; 
         break;
   }
